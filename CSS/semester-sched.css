@@ -1,0 +1,107 @@
+
+
+.container1 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.YourCourses {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.YourCourses th, .YourCourses td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.YourCourses th {
+    background-color: #f1efef;
+}
+
+.YourCourses tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+
+.YourCourses tbody tr:hover {
+    background-color: #ddd;
+}
+
+
+.attendance-cell {
+    position: relative;
+    width: 90px;
+    height: 30px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold; 
+}
+
+
+
+.YourCourses {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Highlight the matched text in search results */
+#all-courses tr.highlight td {
+    background-color: #ffcccb;
+}
+
+
+
+
+
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-bar {
+    width: 50%;
+    margin-left: 380px;
+    box-sizing: border-box;
+}
+
+.FilteredCourses {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.FilteredCourses tbody tr:hover {
+    background-color: #ddd;
+}
+
+.FilteredCourses th,
+.FilteredCourses td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.FilteredCourses th {
+    background-color: #f2f2f2;
+}
+
+.filtered-courses.show .filtered-courses-body tr {
+    display: none;
+}
+
+.filtered-courses.show .filtered-courses-body tr:valid {
+    display: table-row;
+}

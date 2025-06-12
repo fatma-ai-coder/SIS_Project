@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/style.css" type="text/css" rel="stylesheet">
+    <link href="../CSS/semester-sched.css" type="text/css" rel="stylesheet">
+    <title>Semester Schedule</title>
+</head>
+<body>
+  <!--Loading page-->
+  <div id = "preloader">
+</div>
+
+<!-- Header -->
+<div style="background-color: rgb(119,22,16);">
+    <div class="container cont_header">
+        <nav>
+            <img src="../images/logo.png" class="logo">
+            <p class="semester_header">Semester:<br><span id="current_semester">1st 2023/2024</span></p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li>
+                    <a>Schedules</a>
+                    <ul class="dropdown">
+                        <li><a href="sched-sem.html">Semester Schedule</a></li>
+                        <li><a href="sched-weekly.html">Weekly Schedule</a></li>
+                        <li><a href="sched-finals.html">Finals Schedule</a></li>
+                        <li><a href="sched-attendance.html">Attendance</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Courses</a>
+                    <ul class="dropdown">
+                        <li><a href="crs-register.html">Courses Registraion</a></li>
+                        <li><a href="crs-view_all.html">View Courses</a></li>
+                        <li><a href="crs-pos.html">Plan Of Study</a></li>
+                        <li><a href="crs-remain_pos.html">Remaining POS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Grades</a>
+                    <ul class="dropdown">
+                        <li><a href="grades-sem.html">Semester Grades</a></li>
+                        <li><a href="grades-holds.html">Semester Holds</a></li>
+                        <li><a href="grades-overall_holds.html">Overall Holds</a></li>
+                        <li><a href="grades-transcript.html">Transcript</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Accounting</a>
+                    <ul class="dropdown">
+                        <li><a href="acc-fees.html">Semester Fees</a></li>
+                        <li><a href="acc-bank.html">Bank Information</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="settings.html" class="settings"></a>
+            <a href="#logout" class="logout" id="logout"></a>
+        </nav>
+    </div>
+</div>
+
+
+
+    <div class="container1">
+        <h2>Your Courses</h2>
+
+        <table class="YourCourses">
+            <thead>
+                <tr>
+                    <th>Course ID</th>
+                    <th>Course Name</th>
+                    <th>Section</th>
+                    <th>Credit</th>
+                    <th>Room</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Inatructor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BSCS 3330</td>
+                    <td>Computational Science Principles</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>M-73-74-CLab</td>
+                    <td>SuT</td>
+                    <td>08:00 - 09:50</td>
+                    <td>Imed Ben Dhaou</td>
+                   
+                </tr>
+                <tr>
+                <td> BSCS 3345</td>
+                <td>Human Computer Interaction</td>
+                <td>2</td>
+                <td>3</td>
+                <td>M-254-CLab</td>
+                <td>MoW</td>
+                <td>14:00 - 15:50</td>
+                <td>Ghadah Alghamdi</td>
+
+                   
+                </tr>
+                <tr>
+                    <td>BSCS 3365</td>
+                    <td> Software Engineering</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>M-75-76</td>
+                    <td>MoW</td>
+                    <td>10:00 - 11:50</td>
+                    <td>Turki AlThaqafi</td>
+                   
+                </tr>
+                <tr>
+                    <td>BSCS 3380</td>
+                    <td>Artificial Intelligence</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>M-80-82</td>
+                    <td>SuT</td>
+                    <td>14:00 - 15:50</td>
+                    <td>Wadee Alhalabi</td>
+                 
+                </tr>
+                <tr>
+                    <td>BSCS 4390</td>
+                    <td>Advanced Applications Programming</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>M-73-74-CLab</td>
+                    <td>SuT</td>
+                    <td>10:00 - 11:50</td>
+                    <td>Ghadah Alghamdi</td>
+                    
+                </tr>
+                <tr>
+                    <td>PHYS 1302</td>
+                    <td>Physics</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>M-244</td>
+                    <td>MoW</td>
+                    <td> 08:00 - 09:50</td>
+                    <td>Shamim Khan</td>
+                </tr>
+               
+            </tbody>
+        </table>
+    </div>
+
+        
+
+
+
+<footer class="footer">
+    <p class="footer-title"> &copy <span>2023 Student Information System. All rights reserved.</span></p>
+    <div class="student-information">
+        <a href = "https://elearning.dah.edu.sa/" target="_blank"> Blackboard</a>
+        <a href = "http://sisportal.daralhekma.edu.sa:8251/pls/apex/f?p=101:LOGIN_DESKTOP:17231170333839:::::%20" target="_blank"> Petition System</a>
+        <a href = "https://www.dah.edu.sa/en/Pages/default.aspx" target="_blank"> DAH Site</a>
+   </div>
+
+ </footer>
+
+<!-- Hide Loading page-->
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function(){
+        loader.style.display = "none";
+    })
+ </script>
+
+
+
+
+    
+</body>
+</html>

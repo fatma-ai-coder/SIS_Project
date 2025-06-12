@@ -1,0 +1,111 @@
+
+#all-courses tr.highlight td {
+    background-color: #ffcccb;
+}
+
+
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.FilteredCourses {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.FilteredCourses tbody tr:hover {
+    background-color: #ddd;
+}
+
+.FilteredCourses th,
+.FilteredCourses td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.FilteredCourses th {
+    background-color: #f2f2f2;
+}
+
+.filtered-courses.show .filtered-courses-body tr {
+    display: none;
+}
+
+.filtered-courses.show .filtered-courses-body tr:valid {
+    display: table-row;
+}
+
+
+
+.search-bar {
+    width: 130px;
+    margin-left: 380px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+#course-search{
+    font-size: 16px;
+}
+
+
+
+
+
+.error-message {
+    background-color: #FF5733;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+.custom-button {
+    background-color: #b91414; 
+    border: none; 
+    color: white; 
+    padding: 5px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 10px;
+    margin-left: 380px; 
+    margin-top: 10px;
+    
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+ 
+
+/* Hover effect */
+.custom-button:hover {
+    background-color: #751010; 
+}
+
+
+#departmentSelect {
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-left: 380px;
+    margin-top: 10px;
+}
+
+#departmentSelect option {
+    font-size: 14px; 
+    background-color: #f5f5f5; 
+    color: #333; 
+    padding: 5px;
+}
+
+#departmentSelect option[value="other"] {
+    font-weight: bold; 
+}
