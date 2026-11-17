@@ -2,6 +2,12 @@
 
 This project is an updated version of the Student Information System used by Dar Al-Hekma University. It aims to improve the university’s existing system by enhancing features, usability, and adapting it to current academic and administrative needs.
 
+## Live Demo
+
+👉 [fatma-ai-coder.github.io/SIS_Project](https://fatma-ai-coder.github.io/SIS_Project/)
+
+Built with HTML, CSS, Bootstrap and JavaScript. Open `index.html` in a browser to run it locally.
+
 ## Overview
 
 The SIS helps students manage their academic profiles, registration, payments, and access important university resources. It supports smooth handling of course schedules, fee payments, and provides clear status updates for students.
